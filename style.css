@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Damages';
+	src: url("fonts/Damages.ttf") format("truetype");
+    font-family: 'Synemono';
+	src: url("fonts/SyneMono-Regular.ttf") format("truetype");""
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Synemono';
+    font-size: 1em;
+    background-image: linear-gradient(to top, #1b726c, #1f6663, #225b5a, #255050, #264546);
+}
