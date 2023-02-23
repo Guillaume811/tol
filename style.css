@@ -1,9 +1,4 @@
-@font-face {
-	font-family: 'Damages';
-	src: url("font/Damages.ttf") format("truetype");
-    font-family: 'Synemono';
-	src: url("font/SyneMono-Regular.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 *{
     margin: 0px;
@@ -12,11 +7,12 @@
 body{
     font-family: 'Synemono';
     font-size: 1em;
-    background-image: linear-gradient(to top, #1b726c, #1f6663, #225b5a, #255050, #264546);
+    /* background-image: linear-gradient(to top, #1b726c, #1f6663, #225b5a, #255050, #264546); */
+    background-color: #222221;
 }
 
 h2, h3{
-    font-family: 'Damages';
+    font-family: 'Inter';
 }
 
 h2{
