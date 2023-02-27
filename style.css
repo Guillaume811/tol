@@ -45,10 +45,12 @@ h4{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #accueil-jeux div{
     width: 100%;
+    max-width: 440px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,8 +58,14 @@ h4{
     margin-bottom: 20%;
 }
 
+#accueil-jeux div .titre-jeux{
+    height: 110px;
+    margin-bottom: 5%;
+}
+
 #accueil-jeux div img{
     max-width: 434px;
+    margin-bottom: 5%;
 }
 
 #accueil-jeux div h2, #accueil-jeux div h3, #accueil-jeux div h4, #accueil-jeux div p {
