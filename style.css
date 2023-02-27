@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Share+Tech+Mono&display=swap');
 
 *{
     margin: 0px;
 }
 
 body{
-    font-family: 'Synemono';
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1em;
     /* background-image: linear-gradient(to top, #1b726c, #1f6663, #225b5a, #255050, #264546); */
     background-color: #222221;
+    color: white;
 }
 
 h2, h3{
-    font-family: 'Inter';
+    font-family: 'Oswald', sans-serif;
+    color: #a77b30;
 }
 
 h2{
@@ -26,6 +28,7 @@ h3{
 h4{
     font-size: 1.5em;
     color: #00478f;
+    margin-bottom: 25px;
 }
 
 #accueil-logo{
@@ -33,6 +36,9 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#accueil-logo img{
+    max-width: 483px;
 }
 #accueil-jeux{
     padding: 10% 5%;
@@ -46,13 +52,28 @@ h4{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 20%;
 }
 
 #accueil-jeux div img{
-    width: 100%;
+    max-width: 434px;
 }
 
 #accueil-jeux div h2, #accueil-jeux div h3, #accueil-jeux div h4, #accueil-jeux div p {
     text-align: center;
+    
+}
+
+#accueil-jeux div a{
+    width: 50%;
+    border: 2px solid #a77b30;
+    padding: 10px 20px;
+    color: #a77b30;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(167,123,48,0.6); 
+    box-shadow: 0px 0px 20px 5px rgba(167,123,48,0.6);
+    border-radius: 6px;
 }
