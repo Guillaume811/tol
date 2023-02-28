@@ -38,11 +38,6 @@ nav a > img {
 	width: auto;
 	margin-left: 30px;
 }
-
-/* @media (min-width: 789px) {
-	.menu-burger { display: none; }
-} */
-
 .menu-burger {
 	 width: 30px;
     height: 22px;
@@ -56,7 +51,7 @@ nav a > img {
 .bar,
 .bar:after,
 .bar:before {
-	height: 1px;
+	height: 2px;
 	background: #a77b30;
 }
 
@@ -151,14 +146,13 @@ nav a > img {
 }
 
 .overlay .menu-option a {
-	color: dimgrey;
-	font: 700 50px 'Heebo', helvetica, san-serif;
+	color: #a77b30;
+    font-size: 21px;
 	letter-spacing: 2px;
-	text-transform: lowercase;
 }
 
 .overlay .menu-option:hover a {
-	color: white;
+	color: #00478f;
 }
 
 @-webkit-keyframes slideDownIn {
