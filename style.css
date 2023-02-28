@@ -14,13 +14,17 @@ body{
 
 /* MENU */
 
+header{
+    position: fixed;
+    width: 100%;
+}
+
 nav {
 	display: inline-flex;
-   align-items: center;
-   justify-content: space-between;
-	
-	height: 90px;
-	width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #494A54;
