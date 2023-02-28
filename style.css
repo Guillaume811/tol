@@ -33,7 +33,6 @@ nav {
 
 .above-overlay { z-index: 10001; }
 
-nav a.nav-brand {}
 nav a > img {
 	height: 50px;
 	width: auto;
@@ -228,8 +227,7 @@ h4{
     max-width: 483px;
 }
 
-.arrow{
-    background-image: url(images/fleches-vers-le-bas.png);
+/* .arrow{
     background-repeat: no-repeat;
     display: block;
     height: 2rem;
@@ -239,7 +237,7 @@ h4{
 }
 .down{
     -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
-}
+} */
 
 #spe{
     width: 100%;
