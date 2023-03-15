@@ -197,7 +197,7 @@ nav a > img {
 
 /* MAIN */
 
-h2, h3{
+h1, h2, h3{
     font-family: 'Oswald', sans-serif;
     color: #a77b30;
 }
@@ -244,6 +244,18 @@ h4{
     height: 100px;
 }
 
+#intro{
+    padding: 10% 5%;
+}
+
+#intro div p{
+    text-align: center;
+}
+
+#intro div h1{
+    margin-bottom: 20px;
+}
+
 #accueil-jeux{
     padding: 10% 5%;
     display: flex;
@@ -273,7 +285,7 @@ h4{
     margin-bottom: 5%;
 }
 
-#accueil-jeux div h2, #accueil-jeux div h3, #accueil-jeux div h4 {
+#intro div h1, #accueil-jeux div h2, #accueil-jeux div h3, #accueil-jeux div h4 {
     text-align: center;
     
 }
